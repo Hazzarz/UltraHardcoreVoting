@@ -1,0 +1,62 @@
+<div id="S2S" class="collapse toggle"><p>
+<div class="progress">
+<div class="bar"
+style="width: <?php echo(viewbet(1,2,1)); ?>%">Guude</div>
+</div>
+<div class="progress">
+<div class="bar"
+style="width: <?php echo(viewbet(2,2,1)); ?>%">PauseUnPause</div>
+</div>
+<div class="progress">
+<div class="bar"
+style="width: <?php echo(viewbet(3,2,1)); ?>%">VintageBeef</div>
+</div>
+<div class="progress">
+<div class="bar"
+style="width: <?php echo(viewbet(4,2,1)); ?>%">w92Baj</div>
+</div> 
+</p></div> 
+
+
+<div id="S2DH" class="collapse toggle"><p>
+<div class="progress">
+<div class="bar"
+style="width: <?php echo(viewbet(1,2,0)); ?>%">Guude</div>
+</div>
+<div class="progress">
+<div class="bar"
+style="width: <?php echo(viewbet(2,2,0)); ?>%">PauseUnPause</div>
+</div>
+<div class="progress">
+<div class="bar"
+style="width: <?php echo(viewbet(3,2,0)); ?>%">VintageBeef</div>
+</div>
+<div class="progress">
+<div class="bar"
+style="width: <?php echo(viewbet(4,2,0)); ?>%">w92Baj</div>
+</div>
+</p></div>
+
+<div class="modal hide fade" id="S2D">
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+    <h3>First Death of Season 2</h3>
+  </div>
+  <div class="modal-body">
+    <p>
+    <form action="makebet.php" method="POST">
+    <input type="radio" name="vote" value="guude" checked/> Guude <br />
+    <input type="radio" name="vote" value="pause"/> PauseUnPause <br/>
+    <input type="radio" name="vote" value="beef"/> VintageBeef <br/>
+    <input type="radio" name="vote" value="baj"/>  w92Baj<br/>
+    <input type="hidden" name="season" value="2">
+    <input type="hidden" name="survivor" value="0">
+    <br/>
+    <button type="submit" class="btn btn-primary">Make Bet</button>
+    </form>
+    </p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn" data-dismiss="modal" >Close</a>
+  </div>
+</div>
